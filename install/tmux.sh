@@ -1,2 +1,7 @@
-# list_name: Tmux
-# description: A good Terminal Multiplexer.
+# --meta--
+# name: tmux 
+# desc: terminal multiplexer 
+# source: https://github.com/tmux/tmux
+# --meta--
+
+pacman -S tmux

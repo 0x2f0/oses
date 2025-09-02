@@ -20,6 +20,11 @@ Here is a list of available variable to use.
 1. deps:
    List of dependences that should be preinstalled to correctly install the tools. 
    it should contain the comma seperated list dependencies.
+1. platform:
+   The platform that the current configuration tool supports.
+   And if it is specified in the deps folder than it will be skipped according to 
+   the platform.
+
 
 Example:
 ```sh
