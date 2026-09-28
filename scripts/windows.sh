@@ -20,6 +20,7 @@ fi
 
 if [[ $? -eq 0 ]];then
 	qemu-system-x86_64 \
+    -display gtk,full-screen=on,zoom-to-fit=on \
 		-enable-kvm \
 		-m "$MEMORY" \
 		-hda "$IMAGE" \
