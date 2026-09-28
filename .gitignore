@@ -1,2 +1,5 @@
-iso/
-images/
+iso/*
+images/*
+
+!iso/readme.md
+!images/readme.md
