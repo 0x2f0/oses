@@ -2,6 +2,13 @@
 
 set -e
 
+filePath=$(realpath $0 )
+dirPath=$(dirname "$filePath")
+
+if [[ "$PWD" != "$dirPath" ]];then 
+ cd "$dirPath"
+fi
+
 IMAGE="../images/windows"
 IMAGE_SIZE="40G"
 
